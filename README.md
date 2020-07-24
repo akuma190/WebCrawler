@@ -280,4 +280,4 @@ In the below section the program is explained
 
     write.csv(Journal_File,"Test.csv", row.names = FALSE)
     
-![](images/image1.PNG)
+
