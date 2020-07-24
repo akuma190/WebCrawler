@@ -279,3 +279,5 @@ In the below section the program is explained
 10>In the end we will write this dataframe to the CSV File.
 
     write.csv(Journal_File,"Test.csv", row.names = FALSE)
+    
+![](images/image1.PNG)
