@@ -46,12 +46,13 @@ Challenges I met
   
 3>For some of the links I get HTTP 501 error but this is a server side issue and not in the code.
   
-
-#In the below section the program is explained
+------------------------------------------------------
+In the below section the program is explained
+------------------------------------------------------
 
 1>First we load the required packages.
 
-   ibrary(robotstxt)
+   ibrary(robotstxt)<br/>
    library(rvest)
    library(selectr)
    library(xml2)
