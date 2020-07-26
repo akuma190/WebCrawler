@@ -11,16 +11,16 @@ Here,  I  selected  a  journalr  for  this  project.
 Given an input year, My objective is to extract all articles published in/after that year from your  selected  journal.  
 As  a  start  point,  I  was  required  to  extract  the  following  9  fields  for each article:
 
-  1>Title  
-  2>Authors  
-  3>Author  
-  4>Affiliations  
-  3>Correspondence  Author 
-  5>Correspondence  Author's Email 
-  6>Publish Date  
-  7>Abstract 
-  8>Keywords 
-  9>Full Paper (Text format).
+  1>Title<br/>  
+  2>Authors<br/>  
+  3>Author<br/>  
+  4>Affiliations<br/>  
+  3>Correspondence  Author<br/> 
+  5>Correspondence  Author's Email<br/> 
+  6>Publish Date<br/>  
+  7>Abstract<br/> 
+  8>Keywords<br/> 
+  9>Full Paper (Text format).<br/>
   
 Given  an  input  year,  My  program  is  expected  to  crawl  the  journal’s website  automatically,  and  parse  and  extract  useful  fields  for  each  crawled  article.  The program  is  expected  to  store  the  extracted  information  into  a  plain  file  elegantly.
  ----------------------------------------------------
