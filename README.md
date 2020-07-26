@@ -1,7 +1,9 @@
 # WebCrawler
  Web Crawling Using R
  
-#The Logic behind the Code and Complexity
+ ----------------------------------------------------
+The Logic behind the Code and Complexity
+----------------------------------------------------
 
 1>Through our code I will be fetching the number of journal printed in a given year.
 
@@ -28,7 +30,9 @@
   The details are missing in the journal pages and NA will be inserted for them.
   
 
-#Challenges I met
+-----------------------------------------------------
+Challenges I met
+-----------------------------------------------------
 
 
 1>In the begining, I could not extract the four fields: Author Affiliations, Corresponding Author,Corresponding Author's Email and
