@@ -53,18 +53,18 @@ In the below section the program is explained
 1>First we load the required packages.
 
    ibrary(robotstxt)<br/>
-   library(rvest)
-   library(selectr)
-   library(xml2)
-   library(dplyr)
-   library(stringr)
-   library(forcats)
-   library(magrittr)
-   library(tidyr)
-   library(ggplot2)
-   library(lubridate)
-   library(tibble)
-   library(purrr)
+   library(rvest)<br/>
+   library(selectr)<br/>
+   library(xml2)<br/>
+   library(dplyr)<br/>
+   library(stringr)<br/>
+   library(forcats)<br/>
+   library(magrittr)<br/>
+   library(tidyr)<br/>
+   library(ggplot2)<br/>
+   library(lubridate)<br/>
+   library(tibble)<br/>
+   library(purrr)<br/>
 
 
 2>Here we will be loading the main link on the basis of the year.
