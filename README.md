@@ -69,27 +69,27 @@ In the below section the program is explained
 
 2>Here we will be loading the main link on the basis of the year.
 
-   year<-"2020"
-   path<-"https://www.g3journal.org/content/by/year/"
-   path_link<-paste(path,year)
-   path_link<-gsub(" ","",path_link)
+   year<-"2020"<br/>
+   path<-"https://www.g3journal.org/content/by/year/"<br/>
+   path_link<-paste(path,year)<br/>
+   path_link<-gsub(" ","",path_link)<br/>
    
-   paths_allowed(
-     paths = c(path_link)
-   )
+   paths_allowed(<br/>
+     paths = c(path_link)<br/>
+   )<br/>
 
 3>These are the vectors that will be used to store the values.These will be inserted in the dataframe as columns.
 
-   DOI_val<-c()
-   Tit_val<-c()
-   Auth_val<-c()
-   Author_Affil_val<-c()
-   Corresp_Author_val<-c()
-   Corresp_Auth_Email_val<-c()
-   Public_Date_val<-c()
-   Abstract_val<-c()
-   Keywords_val<-c()
-   Full_Text_val<-c()
+   DOI_val<-c()<br/>
+   Tit_val<-c()<br/>
+   Auth_val<-c()<br/>
+   Author_Affil_val<-c()<br/>
+   Corresp_Author_val<-c()<br/>
+   Corresp_Auth_Email_val<-c()<br/>
+   Public_Date_val<-c()<br/>
+   Abstract_val<-c()<br/>
+   Keywords_val<-c()<br/>
+   Full_Text_val<-c()<br/>
    
    load_page<-read_html(path_link)
 
