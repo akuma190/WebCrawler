@@ -1,31 +1,30 @@
 # WebCrawler
  Web Crawling Using R
  
- ----------------------------------------------------
-The Logic behind the Code and Complexity
-----------------------------------------------------
->>Through our code we will be fetching the number of journal printed in a given year.
+#The Logic behind the Code and Complexity
 
->>As we have employed the two nested loops for the purpose.Thus the complexity of the function is O(n2).
+1>Through our code we will be fetching the number of journal printed in a given year.
+
+2>As we have employed the two nested loops for the purpose.Thus the complexity of the function is O(n2).
 
 
->>We are Preparing a link based on the year parameter that is passed in the function.
+3>We are Preparing a link based on the year parameter that is passed in the function.
   If we pass 2020 then the below link will be formed.
   "https://www.g3journal.org/content/by/year/2020"
   
->>use the below command to run the file.
+4>use the below command to run the file.
   journal_year(2020) or journal_year("2020")
   
->>Then we are fetching the the total number of months in this year when the journal was published.
+5>Then we are fetching the the total number of months in this year when the journal was published.
   Take the example of year 2020.
   In 2020 the journal were published in the below months.
   1.Jan :The total journals published were 40
   2.Feb :The total journals published were 43
   3.March :The total journals published were 30
   
->>Thus through our code we will fetch the deatils for 113 journals and store it in a CSV file.
+6>Thus through our code we will fetch the deatils for 113 journals and store it in a CSV file.
 
->>For some articles like https://www.g3journal.org/content/9/12/4247.full
+7>For some articles like https://www.g3journal.org/content/9/12/4247.full
   The details are missing in the journal pages and NA will be inserted for them.
   
 -----------------------------------------------------
