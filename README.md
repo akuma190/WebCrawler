@@ -3,12 +3,12 @@
  
 #The Logic behind the Code and Complexity
 
-1>Through our code we will be fetching the number of journal printed in a given year.
+1>Through our code I will be fetching the number of journal printed in a given year.
 
-2>As we have employed the two nested loops for the purpose.Thus the complexity of the function is O(n2).
+2>As I have employed the nested loop for the purpose.Thus the complexity of the function is O(n2).
 
 
-3>We are Preparing a link based on the year parameter that is passed in the function.
+3>I am Preparing a link based on the year parameter that is passed in the function.
   If we pass 2020 then the below link will be formed.
   "https://www.g3journal.org/content/by/year/2020"
   
@@ -22,29 +22,29 @@
   2.Feb :The total journals published were 43
   3.March :The total journals published were 30
   
-6>Thus through our code we will fetch the deatils for 113 journals and store it in a CSV file.
+6>Thus through the code I will fetch the deatils for 113 journals and store it in a CSV file.
 
 7>For some articles like https://www.g3journal.org/content/9/12/4247.full
   The details are missing in the journal pages and NA will be inserted for them.
   
------------------------------------------------------
-Challenges we met
------------------------------------------------------
 
-1>In the begining, we could not extract the four fields: Author Affiliations, Corresponding Author,Corresponding Author's Email and
-        Publication Date. Then we found that the link to these field is not the same as others. For example, if we extract publication date
-        and authors, the link to which is https://www.g3journal.org/content/3/12/2105. If We need to extract the four fields, we need to add
+#Challenges I met
+
+
+1>In the begining, I could not extract the four fields: Author Affiliations, Corresponding Author,Corresponding Author's Email and
+        Publication Date. Then I found that the link to these field is not the same as others. For example, if I extract publication date
+        and authors, the link to which is https://www.g3journal.org/content/3/12/2105. If I need to extract the four fields, I need to add
         ".article-info" to the link, like https://www.g3journal.org/content/3/12/2105.article-info.
 
-2> Getting Corresponding Author's Email is another challenge. We need to extract the emails from Corresponding Author, but some have one email
-   and some have two emails. We applied regular extracting and found that the "{at}", which shows in the email format, is a special case that
+2> Getting Corresponding Author's Email is another challenge. I need to extract the emails from Corresponding Author, but some have one email
+   and some have two emails. I applied regular extracting and found that the "{at}", which shows in the email format, is a special case that
         causes some errors.
   
-3>For some of the links we get HTTP 501 error but this is a server side issue and not in the code.
+3>For some of the links I get HTTP 501 error but this is a server side issue and not in the code.
   
-------------------------------------------------------
-In the below section the program is explained
-------------------------------------------------------
+
+#In the below section the program is explained
+
 1>First we load the required packages.
 
    ibrary(robotstxt)
